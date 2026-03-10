@@ -164,26 +164,6 @@ export function HowItWorks() {
             })}
           </div>
         </div>
-
-        {/* Bottom CTA hint */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="mt-20 text-center"
-        >
-          <p className="text-sm text-zinc-400 mb-4">Ready to get started?</p>
-          <motion.a
-            href="#"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.97 }}
-            className="inline-flex items-center gap-2 rounded-full bg-zinc-900 px-6 py-3 text-sm font-semibold text-white hover:bg-zinc-800 transition-colors shadow-md"
-          >
-            Start your free project
-            <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
-          </motion.a>
-        </motion.div>
       </div>
     </section>
   );

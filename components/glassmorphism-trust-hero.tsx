@@ -154,7 +154,7 @@ export default function HeroSection() {
               >
                 {/* Shimmer */}
                 <span className="absolute inset-0 -skew-x-12 translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-700 bg-linear-to-r from-transparent via-white/20 to-transparent pointer-events-none" />
-                Start Labeling Free
+                Start Labeling
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1.5" />
               </motion.button>
 
@@ -164,6 +164,7 @@ export default function HeroSection() {
                 className="group inline-flex items-center justify-center gap-2.5 rounded-full border border-zinc-200 bg-white/80 backdrop-blur-sm px-8 py-4 text-sm font-semibold text-zinc-700 hover:bg-white hover:border-zinc-300 hover:shadow-md transition-all duration-300 shadow-sm"
               >
                 Contact
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1.5" />
               </motion.button>
             </motion.div>
 
