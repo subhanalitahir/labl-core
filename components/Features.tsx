@@ -39,15 +39,15 @@ const CARDS = [
 
 export function Features() {
   return (
-    <section className="w-full bg-zinc-950 py-16 px-4 sm:px-6 lg:px-8">
+    <section className="w-full bg-white py-16 px-4 sm:px-6 lg:px-8 border-t border-zinc-100">
       {/* Section header */}
       <div className="mx-auto max-w-7xl mb-4 text-center">
-        <p className="text-xs font-semibold uppercase tracking-widest text-zinc-500 mb-3">
+        <p className="text-xs font-semibold uppercase tracking-widest text-zinc-400 mb-3">
           Platform Features
         </p>
-        <h2 className="text-3xl sm:text-4xl font-medium tracking-tight text-white">
+        <h2 className="text-3xl sm:text-4xl font-medium tracking-tight text-zinc-900">
           Everything you need to{" "}
-          <span className="bg-linear-to-r from-white to-[#ffcd75] bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-zinc-900 to-amber-600 bg-clip-text text-transparent">
             label at scale
           </span>
         </h2>
@@ -57,10 +57,10 @@ export function Features() {
       <div className="mx-auto max-w-7xl flex flex-col lg:flex-row items-stretch justify-center gap-0 lg:gap-2">
         {CARDS.map((card) => (
           <CardContainer key={card.title} className="inter-var flex-1">
-            <CardBody className="relative group/card flex flex-col bg-white/3 hover:bg-white/5 border border-white/10 rounded-2xl p-6 w-full h-full transition-colors duration-300 hover:shadow-[0_0_40px_rgba(255,205,117,0.06)]">
+            <CardBody className="relative group/card flex flex-col bg-white hover:bg-zinc-50 border border-zinc-200 rounded-2xl p-6 w-full h-full transition-all duration-300 shadow-sm hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)]">
               {/* Badge */}
               <CardItem translateZ="30" className="mb-4">
-                <span className="inline-block rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-widest text-zinc-400">
+                <span className="inline-block rounded-full border border-zinc-200 bg-zinc-100 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-widest text-zinc-500">
                   {card.badge}
                 </span>
               </CardItem>
@@ -68,7 +68,7 @@ export function Features() {
               {/* Title */}
               <CardItem
                 translateZ="50"
-                className="text-lg font-semibold tracking-tight text-white mb-2"
+                className="text-lg font-semibold tracking-tight text-zinc-900 mb-2"
               >
                 {card.title}
               </CardItem>
@@ -89,7 +89,7 @@ export function Features() {
                   alt={card.alt}
                   width={800}
                   height={400}
-                  className="h-44 w-full object-cover rounded-xl opacity-80 group-hover/card:opacity-100 transition-opacity duration-300"
+                  className="h-44 w-full object-cover rounded-xl opacity-90 group-hover/card:opacity-100 transition-opacity duration-300"
                 />
               </CardItem>
 
@@ -99,14 +99,14 @@ export function Features() {
                   translateZ={20}
                   as="a"
                   href="#"
-                  className="text-xs font-medium text-zinc-400 hover:text-white transition-colors"
+                  className="text-xs font-medium text-zinc-400 hover:text-zinc-900 transition-colors"
                 >
                   {card.cta} →
                 </CardItem>
                 <CardItem
                   translateZ={20}
                   as="button"
-                  className="px-4 py-1.5 rounded-lg bg-white/10 hover:bg-white/15 border border-white/10 text-white text-xs font-semibold transition-colors"
+                  className="px-4 py-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-700 text-white text-xs font-semibold transition-colors"
                 >
                   Get Started
                 </CardItem>
