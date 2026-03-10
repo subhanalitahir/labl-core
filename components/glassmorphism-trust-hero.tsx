@@ -59,36 +59,35 @@ export default function HeroSection() {
                   <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500" />
                 </span>
                 <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-wider text-zinc-500">
-                  Now Accepting Projects
+                  Free Tier Now Available
                 </span>
               </div>
             </div>
 
             {/* Heading */}
             <h1 className="animate-fade-in delay-200 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-medium tracking-tighter leading-[0.95] text-zinc-900">
-              Crafting Digital<br />
+              Label Data at Scale<br />
               <span className="bg-linear-to-br from-zinc-900 via-zinc-800 to-emerald-600 bg-clip-text text-transparent">
-                Experiences
+                With AI-Powered
               </span><br />
-              That Matter
+              Precision
             </h1>
 
             {/* Description */}
             <p className="animate-fade-in delay-300 max-w-xl text-base text-zinc-500 leading-relaxed">
-              We design interfaces that combine beauty with functionality,
-              creating seamless experiences that users love and businesses thrive on.
+              Labl-core is the annotation platform purpose-built for computer vision teams. Draw bounding boxes, run AI pre-labeling, enforce review quality, and export to COCO, YOLO, Pascal VOC, and 50+ formats — all from one workspace.
             </p>
 
             {/* CTA Buttons */}
             <div className="animate-fade-in delay-400 flex flex-col sm:flex-row gap-4">
               <button className="group inline-flex items-center justify-center gap-2 rounded-full bg-emerald-600 px-8 py-4 text-sm font-semibold text-white transition-all hover:scale-[1.02] hover:bg-emerald-700 active:scale-[0.98] shadow-[0_4px_20px_rgba(5,150,105,0.25)]">
-                View Portfolio
+                Start Labeling Free
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </button>
 
               <button className="group inline-flex items-center justify-center gap-2 rounded-full border border-zinc-200 bg-white px-8 py-4 text-sm font-semibold text-zinc-700 transition-colors hover:bg-zinc-50 hover:border-zinc-300 shadow-sm">
                 <Play className="w-4 h-4 fill-current" />
-                Watch Showreel
+                Watch Demo
               </button>
             </div>
           </div>
@@ -107,15 +106,15 @@ export default function HeroSection() {
                     <Target className="h-6 w-6 text-emerald-600" />
                   </div>
                   <div>
-                    <div className="text-3xl font-bold tracking-tight text-zinc-900">150+</div>
-                    <div className="text-sm text-zinc-400">Projects Delivered</div>
+                    <div className="text-3xl font-bold tracking-tight text-zinc-900">10M+</div>
+                    <div className="text-sm text-zinc-400">Annotations Delivered</div>
                   </div>
                 </div>
 
                 {/* Progress Bar Section */}
                 <div className="space-y-3 mb-8">
                   <div className="flex justify-between text-sm">
-                    <span className="text-zinc-500">Client Satisfaction</span>
+                    <span className="text-zinc-500">Dataset Quality Score</span>
                     <span className="text-zinc-900 font-medium">98%</span>
                   </div>
                   <div className="h-2 w-full overflow-hidden rounded-full bg-zinc-100">
@@ -127,11 +126,11 @@ export default function HeroSection() {
 
                 {/* Mini Stats Grid */}
                 <div className="grid grid-cols-3 gap-4 text-center">
-                  <StatItem value="5+" label="Years" />
+                  <StatItem value="50+" label="Formats" />
                   <div className="w-px h-full bg-zinc-200 mx-auto" />
                   <StatItem value="24/7" label="Support" />
                   <div className="w-px h-full bg-zinc-200 mx-auto" />
-                  <StatItem value="100%" label="Quality" />
+                  <StatItem value="500+" label="Teams" />
                 </div>
 
                 {/* Tag Pills */}
