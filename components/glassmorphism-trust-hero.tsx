@@ -31,9 +31,9 @@ export default function HeroSection() {
 
       {/* Decorative background blobs */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-32 -right-32 h-125 w-125 rounded-full bg-amber-100/60 blur-3xl" />
-        <div className="absolute bottom-0 -left-32 h-100 w-100 rounded-full bg-orange-100/50 blur-3xl" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-75 w-150 rounded-full bg-zinc-100/80 blur-3xl" />
+        <div className="absolute -top-32 -right-32 h-125 w-125 rounded-full bg-emerald-100/70 blur-3xl" />
+        <div className="absolute bottom-0 -left-32 h-100 w-100 rounded-full bg-green-100/60 blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-75 w-150 rounded-full bg-emerald-50/80 blur-3xl" />
       </div>
 
       {/* Subtle dot grid */}
@@ -67,7 +67,7 @@ export default function HeroSection() {
             {/* Heading */}
             <h1 className="animate-fade-in delay-200 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-medium tracking-tighter leading-[0.95] text-zinc-900">
               Crafting Digital<br />
-              <span className="bg-linear-to-br from-zinc-900 via-zinc-800 to-amber-600 bg-clip-text text-transparent">
+              <span className="bg-linear-to-br from-zinc-900 via-zinc-800 to-emerald-600 bg-clip-text text-transparent">
                 Experiences
               </span><br />
               That Matter
@@ -81,7 +81,7 @@ export default function HeroSection() {
 
             {/* CTA Buttons */}
             <div className="animate-fade-in delay-400 flex flex-col sm:flex-row gap-4">
-              <button className="group inline-flex items-center justify-center gap-2 rounded-full bg-zinc-900 px-8 py-4 text-sm font-semibold text-white transition-all hover:scale-[1.02] hover:bg-zinc-700 active:scale-[0.98] shadow-[0_4px_20px_rgba(0,0,0,0.15)]">
+              <button className="group inline-flex items-center justify-center gap-2 rounded-full bg-emerald-600 px-8 py-4 text-sm font-semibold text-white transition-all hover:scale-[1.02] hover:bg-emerald-700 active:scale-[0.98] shadow-[0_4px_20px_rgba(5,150,105,0.25)]">
                 View Portfolio
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </button>
@@ -99,12 +99,12 @@ export default function HeroSection() {
             {/* Stats Card */}
             <div className="animate-fade-in delay-500 relative overflow-hidden rounded-3xl border border-zinc-200 bg-white p-8 shadow-[0_8px_40px_rgba(0,0,0,0.08)]">
               {/* Card accent */}
-              <div className="absolute top-0 right-0 -mr-12 -mt-12 h-48 w-48 rounded-full bg-amber-50 blur-3xl pointer-events-none" />
+              <div className="absolute top-0 right-0 -mr-12 -mt-12 h-48 w-48 rounded-full bg-emerald-50 blur-3xl pointer-events-none" />
 
               <div className="relative z-10">
                 <div className="flex items-center gap-4 mb-8">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-zinc-100 ring-1 ring-zinc-200">
-                    <Target className="h-6 w-6 text-zinc-700" />
+                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-50 ring-1 ring-emerald-200">
+                    <Target className="h-6 w-6 text-emerald-600" />
                   </div>
                   <div>
                     <div className="text-3xl font-bold tracking-tight text-zinc-900">150+</div>
@@ -119,7 +119,7 @@ export default function HeroSection() {
                     <span className="text-zinc-900 font-medium">98%</span>
                   </div>
                   <div className="h-2 w-full overflow-hidden rounded-full bg-zinc-100">
-                    <div className="h-full w-[98%] rounded-full bg-linear-to-r from-zinc-900 to-zinc-500" />
+                    <div className="h-full w-[98%] rounded-full bg-linear-to-r from-emerald-600 to-emerald-300" />
                   </div>
                 </div>
 
@@ -144,7 +144,7 @@ export default function HeroSection() {
                     ACTIVE
                   </div>
                   <div className="inline-flex items-center gap-1.5 rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-[10px] font-medium tracking-wide text-zinc-600">
-                    <Crown className="w-3 h-3 text-amber-500" />
+                    <Crown className="w-3 h-3 text-emerald-500" />
                     PREMIUM
                   </div>
                 </div>

@@ -34,7 +34,7 @@ export default function Navbar() {
           100% { background-position:  200% center; }
         }
         .logo-shimmer {
-          background: linear-gradient(90deg, #18181b 0%, #b45309 40%, #18181b 60%, #b45309 100%);
+          background: linear-gradient(90deg, #18181b 0%, #059669 40%, #18181b 60%, #059669 100%);
           background-size: 200% auto;
           -webkit-background-clip: text;
           background-clip: text;
@@ -54,8 +54,8 @@ export default function Navbar() {
         >
           {/* ── Logo ── */}
           <a href="#" className="flex items-center gap-2.5 shrink-0 pl-1 group">
-            <div className="relative flex h-8 w-8 items-center justify-center rounded-xl overflow-hidden bg-zinc-900">
-              <Sparkles className="h-4 w-4 text-amber-400 relative z-10" />
+            <div className="relative flex h-8 w-8 items-center justify-center rounded-xl overflow-hidden bg-emerald-600">
+              <Sparkles className="h-4 w-4 text-white relative z-10" />
             </div>
             <span className="text-lg font-black tracking-tight">
               <span className="logo-shimmer">LABL</span>
@@ -76,7 +76,7 @@ export default function Navbar() {
                 }`}
               >
                 {activeLink === link.label && (
-                  <span className="absolute inset-0 rounded-xl bg-zinc-100 border border-zinc-200" />
+                  <span className="absolute inset-0 rounded-xl bg-emerald-50 border border-emerald-200" />
                 )}
                 <span className="relative">{link.label}</span>
               </a>
@@ -86,7 +86,7 @@ export default function Navbar() {
           {/* ── Right side ── */}
           <div className="flex items-center gap-2 shrink-0">
             {/* Availability dot */}
-            <div className="hidden md:flex items-center gap-1.5 rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1.5">
+            <div className="hidden md:flex items-center gap-1.5 rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1.5">
               <span className="relative flex h-1.5 w-1.5">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
                 <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500" />
@@ -97,7 +97,7 @@ export default function Navbar() {
             {/* CTA */}
             <a
               href="#"
-              className="hidden md:inline-flex items-center gap-1.5 rounded-xl bg-zinc-900 px-4 py-2 text-sm font-semibold text-white transition-all duration-200 hover:bg-zinc-700 hover:shadow-[0_0_20px_rgba(0,0,0,0.15)] active:scale-[0.97]"
+              className="hidden md:inline-flex items-center gap-1.5 rounded-xl bg-emerald-600 px-4 py-2 text-sm font-semibold text-white transition-all duration-200 hover:bg-emerald-700 hover:shadow-[0_0_20px_rgba(5,150,105,0.3)] active:scale-[0.97]"
             >
               Let&apos;s Talk
               <ArrowRight className="h-3.5 w-3.5" />
@@ -133,7 +133,7 @@ export default function Navbar() {
             <div className="pt-2 pb-1 px-1">
               <a
                 href="#"
-                className="flex items-center justify-center gap-2 rounded-xl bg-zinc-900 px-5 py-3 text-sm font-semibold text-white hover:bg-zinc-700 transition-colors"
+                className="flex items-center justify-center gap-2 rounded-xl bg-emerald-600 px-5 py-3 text-sm font-semibold text-white hover:bg-emerald-700 transition-colors"
               >
                 Let&apos;s Talk <ArrowRight className="h-3.5 w-3.5" />
               </a>
