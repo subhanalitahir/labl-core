@@ -94,6 +94,15 @@ export default function Navbar() {
               <span className="text-[11px] font-medium text-zinc-500 tracking-wide">Available</span>
             </div>
 
+            {/* Sign in with Hugging Face */}
+            <a
+              href="#"
+              className="hidden md:inline-flex items-center gap-1.5 rounded-xl border border-zinc-200 bg-white px-3 py-2 text-sm font-semibold text-zinc-700 transition-all duration-200 hover:bg-zinc-50 hover:border-zinc-300 active:scale-[0.97] shadow-sm"
+            >
+              <img src="/icons/huggingface-color.svg" alt="Hugging Face" className="h-4 w-4" />
+              Sign in with HF
+            </a>
+
             {/* CTA */}
             <a
               href="#"
@@ -130,7 +139,14 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
-            <div className="pt-2 pb-1 px-1">
+            <div className="pt-2 pb-1 px-1 space-y-2">
+              <a
+                href="#"
+                className="flex items-center justify-center gap-2 rounded-xl border border-zinc-200 bg-white px-5 py-3 text-sm font-semibold text-zinc-700 hover:bg-zinc-50 transition-colors"
+              >
+                <img src="/icons/huggingface-color.svg" alt="Hugging Face" className="h-4 w-4" />
+                Sign in with Hugging Face
+              </a>
               <a
                 href="#"
                 className="flex items-center justify-center gap-2 rounded-xl bg-emerald-600 px-5 py-3 text-sm font-semibold text-white hover:bg-emerald-700 transition-colors"
